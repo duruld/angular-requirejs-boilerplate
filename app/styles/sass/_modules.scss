@@ -1,0 +1,29 @@
+.fab-button,
+.scroll-up {
+    width: 60px;
+    height: 60px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.fab-button {
+    background: $green;
+    i {
+        color: #fff;
+        &:before {
+            vertical-align: sub;
+        }
+    }
+}
+
+.scroll-up {
+    background: #fff;
+    border: 1px solid $light-blue;
+    box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.05);
+}
+

@@ -1,0 +1,55 @@
+body {
+    background: $light-grey;
+    font-family: "proxima-nova", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wf-loading body {
+    visibility: hidden;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+button {
+    text-decoration: none;
+    outline: 0 !important;
+}
+
+a {
+    color: $green;
+}
+
+@mixin sticky-footer($footer-height, $wrapper-selector: unquote("#wrapper"), $container-selector: unquote("#container"), $footer-selector: unquote("#footer")) {
+    html,
+    body {
+        height: 100%;
+    }
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    #{$wrapper-selector} {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin-bottom: -$footer-height;
+        #{$container-selector} {
+            padding: 0 0 $footer-height 0;
+        }
+    }
+    #{$footer-selector} {
+        height: $footer-height;
+    }
+}
+
+@include sticky-footer(30px);
+html,
+body,
+#wrapper,
+#container,
+#footer {
+    width: 100%;
+}

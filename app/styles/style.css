@@ -1,0 +1,174 @@
+/* COLORS */
+/* line 1, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_base.scss */
+body {
+  background: #EFEFEF;
+  font-family: "proxima-nova", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 8, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_base.scss */
+.wf-loading body {
+  visibility: hidden;
+}
+
+/* line 12, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_base.scss */
+a,
+a:hover,
+a:focus,
+a:active,
+button {
+  text-decoration: none;
+  outline: 0 !important;
+}
+
+/* line 21, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_base.scss */
+a {
+  color: #18b0a6;
+}
+
+/* line 26, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_base.scss */
+html,
+body {
+  height: 100%;
+}
+
+/* line 30, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_base.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 34, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_base.scss */
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -30px;
+}
+
+/* line 39, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_base.scss */
+#wrapper #container {
+  padding: 0 0 30px 0;
+}
+
+/* line 43, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_base.scss */
+#footer {
+  height: 30px;
+}
+
+/* line 49, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_base.scss */
+html,
+body,
+#wrapper,
+#container,
+#footer {
+  width: 100%;
+}
+
+/* NAV */
+/* HEADER */
+/* FOOTER */
+/* line 7, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_theme.scss */
+footer {
+  border-top: 1px solid #E5E8ED;
+}
+
+/* line 10, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_theme.scss */
+footer .footer-content {
+  background: #fff;
+}
+
+/* line 1, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_modules.scss */
+.fab-button,
+.scroll-up {
+  width: 60px;
+  height: 60px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 100px;
+}
+
+/* line 14, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_modules.scss */
+.fab-button {
+  background: #18b0a6;
+}
+
+/* line 16, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_modules.scss */
+.fab-button i {
+  color: #fff;
+}
+
+/* line 18, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_modules.scss */
+.fab-button i:before {
+  vertical-align: sub;
+}
+
+/* line 24, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_modules.scss */
+.scroll-up {
+  background: #fff;
+  border: 1px solid #E5E8ED;
+  box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+@font-face {
+  font-family: "icon";
+  src: url("../../fonts/icon.eot");
+  src: url("../../fonts/icon.eot?#iefix") format("embedded-opentype"), url("../../fonts/icon.woff") format("woff"), url("../../fonts/icon.ttf") format("truetype"), url("../../fonts/icon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_icon.scss */
+[data-icon]:before {
+  font-family: "icon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 28, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_icon.scss */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "icon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 41, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_icon.scss */
+.icon-search:before {
+  content: "\61";
+}
+
+/* line 44, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_icon.scss */
+.icon-add:before {
+  content: "\62";
+}
+
+/* line 47, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_icon.scss */
+.icon-arrow-down:before {
+  content: "\63";
+}
+
+/* line 50, /Users/Oguz/Documents/clearsettle/Dashboard/app/styles/sass/_icon.scss */
+.icon-date:before {
+  content: "\64";
+}
+
+/*# sourceMappingURL=../style.map */
